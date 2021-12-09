@@ -1,0 +1,5 @@
+$schema: https://azuremlschemas.azureedge.net/latest/dataset.schema.json
+name: iris-file-https-example
+description: Dataset created from a file in cloud using https URL.
+paths:
+  - file: https://azuremlexamples.blob.core.windows.net/datasets/iris.csv
